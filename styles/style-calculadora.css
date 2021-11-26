@@ -1,0 +1,58 @@
+html {
+    --background_color: rgb(162, 162, 165);
+  }
+  
+  body {
+    background-color: var(--background_color);
+  }
+  #calculadora {
+    background-color: #222224;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    left: 400px;
+    top: 90px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    border-radius: 20px;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 150%;
+    height: 80px;
+    border-radius: 20px;
+    opacity: 0.9;
+  }
+  .cInput {
+    width: 80%;
+    height: 50px;
+    margin-left: 12px;
+    font-size: 100%;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgb(210, 218, 221), 0 0 20px rgba(10, 175, 230, 0);
+    border-radius: 20px;
+    background-color: tomato;
+  }
+  
+  .input {
+    width: 80%;
+    height: 50px;
+    margin-left: 12px;
+    font-size: 100%;
+    border-radius: 20px;
+    background-color: #343336;
+    color: #f8f8d7;
+    text-shadow: 0 0 50px rgb(219, 243, 8), 0 0 20px rgba(10, 175, 230, 0);
+  }
+  #result {
+    background-color: rgb(56, 68, 55);
+    width: 450px;
+    margin-left: 25px;
+    font-family: Calibri, Arial;
+    font-size: 150%;
+    border-radius: 10px;
+    color: #daf6ff;
+    text-shadow: 0 0 20px rgb(235, 243, 215), 0 0 20px rgba(10, 175, 230, 0);
+  }
+  

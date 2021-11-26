@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <script src="/calculadora.js"></script>
+    <title>calculadora</title>
+  </head>
+  <body>
+    <table id="calculadora">
+      <tr>
+        <td colspan="4">
+          <button id="result">0</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="del()" class="cInput">C</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="add('7')" class="input">7</button>
+        </td>
+        <td>
+          <button onclick="add('8')" class="input">8</button>
+        </td>
+        <td>
+          <button onclick="add('9')" class="input">9</button>
+        </td>
+        <td>
+          <button onclick="add('/')" class="input">/</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="add('4')" class="input">4</button>
+        </td>
+        <td>
+          <button onclick="add('5')" class="input">5</button>
+        </td>
+        <td>
+          <button onclick="add('6')" class="input">6</button>
+        </td>
+        <td>
+          <button onclick="add('*')" class="input">x</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button onclick="add('1')" class="input">1</button>
+        </td>
+        <td>
+          <button onclick="add('2')" class="input">2</button>
+        </td>
+        <td>
+          <button onclick="add('3')" class="input">3</button>
+        </td>
+        <td>
+          <button onclick="add('-')" class="input">-</button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <button onclick="add('0')" class="input">0</button>
+        </td>
+        <td>
+          <button onclick="calc('=')" class="input">=</button>
+        </td>
+        <td>
+          <button onclick="add('+')" class="input">+</button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
